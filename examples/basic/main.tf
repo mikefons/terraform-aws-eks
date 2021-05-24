@@ -3,7 +3,6 @@ provider "aws" {
   secret_key = var.aws_secret_key
   region     = var.region
 }
-}
 
 data "aws_eks_cluster" "cluster" {
   name = module.eks.cluster_id
