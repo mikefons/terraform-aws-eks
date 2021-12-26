@@ -13,7 +13,7 @@ terraform {
     }
     kubernetes = {
       source  = "hashicorp/kubernetes"
-      version = ">= 2.7.1"
+      version = ">= 2.1.0"
     }
     cloudinit = {
       source  = "hashicorp/cloudinit"
